@@ -29,7 +29,7 @@ tput cnorm
 }
 IP=$(cat /etc/IP)
 x="ok"
-menu ()
+menua ()
 {
 #MANAGER SCRIPTS
 sshplusfree () {
@@ -189,5 +189,5 @@ echo -e "\n\033[1;31mOpcao invalida !\033[0m"
 esac
 done
 }
-menu
+menua
 #fim
